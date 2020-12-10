@@ -1,0 +1,36 @@
+body {
+  background: url('Jup.jpg');
+}
+
+.score {
+  font-family: 'arial';
+  font-size: 44px;
+  position: fixed;
+  right: 5%;
+}
+
+.grid {
+  position: relative;
+
+  right: -44%;
+
+  background: #fff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple {
+  background-color: red;
+}
