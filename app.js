@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     interval = setInterval(moveOutcomes, intervalTime);
   }
 
-  //function that deals with all possible snake moves  //
+  //function that deals with all possible snake moveses  //
 
   function moveOutcomes() {
     //deals with snake hitting borders //
