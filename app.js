@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const scoreDisplay = document.querySelector('span');
   const startBtn = document.querySelector('.start');
 
-  const width = 10;
+  const width = 8;
   let currentIndex = 0; // first div in our grid //
   let appleIndex = 0; //first div in grid //
   let currentSnake = [2, 1, 0]; // 2 is the head,0 the tail, 1's for the body //
